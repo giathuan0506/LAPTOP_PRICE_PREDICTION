@@ -106,14 +106,6 @@ Giải quyết bài toàn này sẽ giúp cho người dùng dễ dàng thẩm �
   + Thu thập thêm nhiều dữ liệu để huấn luyện và kiểm thử.
   
 #### 2.7. Phân công công việc. 
-|         **Giai đoạn**         |           **Người thực hiện**            |      **Công việc**     | **Kết quả** |
-|---------------------------|-------------------------------------------------|-------------------|----------|
-| Chọn đề tài      |                       Thuận                    | **Loại cảm ứng**  |   Không  |
-|  <!-- -->    |                    Luân                 | **Tấm nền**       |    IPS   |
-| **Màn hình**              |                        15.6"                    | **Kiểu màn hình** |    LED   |
-| **Độ phân giải**          |                  1920 x 1080 Pixel              | **Độ tương phản** |  600:1   |
-| **Tần số quét**           |                        60 Hz                    | **Độ sáng)**      | 250 nits |
-| **Tỷ lệ màn hình**        |                        16:09                    | **Độ phủ màu**    | 45% NTSC |
-| **Tên đầy đủ (Màn hình)** |            "15.6"" Anti-glare LED-backlit"      |                   |          | 
+
 #### 2.8. Hướng dẫn chạy các file notebook (tất cả các quy trình, cả code thu nhập dữ liệu) 
 Em đã đính kèm theo file notebook: 
