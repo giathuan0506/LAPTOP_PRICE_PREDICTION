@@ -2,7 +2,7 @@
 
 ## Đồ án cuối kỳ môn Khoa học Dữ liệu
 
-#### Giáo viên: Hoàng Xuân Trường
+#### Giáo viên: Lê Ngọc Thành, Hoàng Xuân Trường
 
 ### Đề tài: Dự đoán giá laptop
 
