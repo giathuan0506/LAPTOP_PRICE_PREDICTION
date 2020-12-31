@@ -96,10 +96,10 @@ Giải quyết bài toàn này sẽ giúp cho người dùng dễ dàng thẩm �
     - Ví dụ với laptop “Asus TUF Gaming FX506LI-HN039T/i5-10300H” có trường dữ liệu “Tên đầy đủ CPU” nhận giá trị là “Intel Core i5-10300H”. Chúng tôi dựa vào thang điểm trên trang “https://www.cpubenchmark.net” để thay thế giá trị 8854 cho giá trị cũ.
     
 #### 2.6. Tự đánh giá đồ án (kết quả, thiếu sót, cần làm gì phát triển thêm,..).
-- Do các đặc trưng sản phẩm quá nhiều (hơn 100 trường dữ liệu), điều này là một thử thách rất lớn cho tiến trình tiền xử lý dữ liệu. Nên chúng tôi sẽ giữ lại 25 giá trị cột dữ liệu đầu tiên để tiến hành xử lý các giá trị đặc trưng thành một vector đặc trưng của từng sản phẩm. Các đặc trưng cụ thể mà chúng tôi sử dụng là: Tên đầy đủ (CPU), Số luồng, Số lõi, RAM, Số khe cắm rời, Tốc độ RAM, Dung lượng nâng cấp tối đa, Số RAM onboard, Số khe RAM còn lại, Màn hình, Độ phân giải, Tần số quét, Độ sáng, Có Card rời, Có Card onbroad, Xung nhịp tối đa (Card onbroad), Bộ nhớ đồ họa (Card rời), Tổng số khe cắm SSD/HDD, Có SSD, Số khe SSD/HDD còn lại, Có HDD, Số cổng Gigabit Ethernet, Số cổng HDMI, Số cổng VGA
-- Mình sẽ phân chia bộ dữ liệu này thành 2 nhóm train và test nhờ vào hàm train_test_split của thư viện sklearn với tỉ lệ tập test là: 0.2. Sau khi nhiều lần chạy thử nghiệm, kết quả trung bình theo đánh giá rmse là: 2824189.5807544095
+- Do các đặc trưng sản phẩm quá nhiều (hơn 100 trường dữ liệu), điều này là một thử thách rất lớn cho tiến trình tiền xử lý dữ liệu. Nên nhóm sẽ giữ lại 25 giá trị cột dữ liệu đầu tiên để tiến hành xử lý các giá trị đặc trưng thành một vector đặc trưng của từng sản phẩm. Các đặc trưng cụ thể mà nhóm sử dụng là: Tên đầy đủ (CPU), Số luồng, Số lõi, RAM, Số khe cắm rời, Tốc độ RAM, Dung lượng nâng cấp tối đa, Số RAM onboard, Số khe RAM còn lại, Màn hình, Độ phân giải, Tần số quét, Độ sáng, Có Card rời, Có Card onbroad, Xung nhịp tối đa (Card onbroad), Bộ nhớ đồ họa (Card rời), Tổng số khe cắm SSD/HDD, Có SSD, Số khe SSD/HDD còn lại, Có HDD, Số cổng Gigabit Ethernet, Số cổng HDMI, Số cổng VGA
+- Nhóm sẽ phân chia bộ dữ liệu này thành 2 nhóm train và test nhờ vào hàm train_test_split của thư viện sklearn với tỉ lệ tập test là: 0.2. Sau khi nhiều lần chạy thử nghiệm, kết quả trung bình theo đánh giá rmse là: 2824189.5807544095
 - Đây là một kết quả có thể chấp nhận được.
-- Để cải thiện kết quả của mô hình, thì chúng tôi cần:
+- Để cải thiện kết quả của mô hình, thì nhóm cần:
   + Chọn lọc các trường dữ liệu sử dụng để xây dựng vector đặc trưng phù hợp hơn.
   + Sử dụng các thang đo có độ chính xác cao hơn.
   + Cải thiện việc xử lý các dữ liệu bị thiếu hoặc “đang cập nhật”.
@@ -108,4 +108,6 @@ Giải quyết bài toàn này sẽ giúp cho người dùng dễ dàng thẩm �
 #### 2.7. Phân công công việc. 
 ![image](./Teamwork-Plan.png)
 #### 2.8. Hướng dẫn chạy các file notebook (tất cả các quy trình, cả code thu nhập dữ liệu) 
-Em đã đính kèm theo file notebook: 
+Nhóm đã đính kèm theo file notebook có chú thích code: 
+https://github.com/giathuan0506/LAPTOP_PRICE_PREDICTION/blob/main/Crawler_laptop_data.ipynb
+https://github.com/giathuan0506/LAPTOP_PRICE_PREDICTION/blob/main/Final.ipynb
