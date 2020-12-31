@@ -106,6 +106,6 @@ Giải quyết bài toàn này sẽ giúp cho người dùng dễ dàng thẩm �
   + Thu thập thêm nhiều dữ liệu để huấn luyện và kiểm thử.
   
 #### 2.7. Phân công công việc. 
-
+![image](./Teamwork-Plan.png)
 #### 2.8. Hướng dẫn chạy các file notebook (tất cả các quy trình, cả code thu nhập dữ liệu) 
 Em đã đính kèm theo file notebook: 
